@@ -5,9 +5,15 @@
   "description": "Quick Tmux Session Switcher",
   "icon": "command-icon.png",
   "author": "louishuyng",
-  "contributors": ["sxn",
-    "jasonshanks"],
-  "categories": ["Developer Tools"],
+  "owner": "guide",
+  "contributors": [
+    "sxn",
+    "jasonshanks",
+    "guide"
+  ],
+  "categories": [
+    "Developer Tools"
+  ],
   "license": "MIT",
   "commands": [
     {
@@ -33,6 +39,16 @@
       "title": "Manage Tmux Windows",
       "description": "Manage Tmux Windows that user can switch or delete any tmux window from here",
       "mode": "view"
+    }
+  ],
+  "preferences": [
+    {
+      "name": "defaultDirectory",
+      "description": "Default directory for new tmux session",
+      "title": "New Session Default Directory",
+      "placeholder": "Select a directory",
+      "type": "directory",
+      "required": false
     }
   ],
   "dependencies": {
